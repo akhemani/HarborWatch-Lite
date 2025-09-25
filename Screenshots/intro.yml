@@ -1,0 +1,75 @@
+intro:
+  name: "Ameet Khemani"
+  contact:
+    phone: "+91-8562024288"
+    email: "ameetkhemani@gmail.com"
+    linkedin: "https://linkedin.com/in/ameetkhemani"
+    github: "https://github.com/akhemani"
+
+  summary: |
+    A Full Stack Developer with 5+ years of experience in building scalable web applications,
+    now transitioning into DevOps and Cloud Engineering. Strong background in Java, Spring Boot,
+    MERN stack, and front-end frameworks, combined with hands-on learning in CI/CD pipelines,
+    containerization, infrastructure as code, and AWS. Passionate about automation, system reliability,
+    and improving software delivery processes. Open to roles that allow contributing software engineering
+    expertise while growing in a DevOps-focused career path.
+
+  skills:
+    languages: ["Java", "JavaScript", "TypeScript", "SQL"]
+    frameworks: ["Spring Boot", "Express", "Angular", "React"]
+    databases: ["MongoDB", "MySQL"]
+    tools: ["Git", "Docker"]
+    methodologies: ["Agile", "Scrum"]
+    devops_learning: ["CI/CD", "AWS", "Infrastructure as Code", "Containerization", "SRE Practices"]
+
+  experience:
+    - role: "Full Stack Consultant"
+      company: "Techademy"
+      duration: "Feb 2023 - Present"
+      responsibilities:
+        - "Led end-to-end project life cycles ensuring quality and timely delivery."
+        - "Interacted with clients to gather requirements and align solutions with business objectives."
+        - "Developed auto-grading projects in Java, Angular, React, NodeJS for hiring, upskilling, and training."
+        - "Collaborated across teams to optimize learning solutions."
+
+    - role: "Software Engineer"
+      company: "Metacube Software Pvt Ltd"
+      duration: "Mar 2021 - Feb 2023"
+      responsibilities:
+        - "Built automobile maintenance platform using MERN stack."
+        - "Implemented dealer discovery, booking, vehicle transfer, and deals."
+        - "Optimized backend queries for scalability and integrated third-party APIs."
+
+    - role: "Software Engineer"
+      company: "CresitaTech IT Solutions Pvt Ltd"
+      duration: "Jul 2020 - Feb 2021"
+      responsibilities:
+        - "Developed legal management platform features with React."
+        - "Improved scheduling, keyword management, and document handling."
+        - "Enhanced performance and accessibility through optimizations."
+
+    - role: "Technical Analyst"
+      company: "OnGraph Technologies Pvt Ltd"
+      duration: "Jun 2019 - Jul 2020"
+      responsibilities:
+        - "Developed productivity management platform for employee and expense tracking."
+        - "Built dashboards and reporting tools in Angular."
+        - "Integrated Spring Boot backend APIs and improved database management."
+
+  education:
+    degree: "Masters of Computer Application"
+    institution: "MBM Engineering College, Jodhpur (Rajasthan, India)"
+    duration: "2017 - 2020"
+    cgpa: "7.82"
+
+  interests:
+    - "DevOps"
+    - "Cloud Infrastructure"
+    - "Automation"
+    - "CI/CD"
+    - "Site Reliability Engineering"
+
+  career_transition_note: |
+    Bringing 5+ years of full stack development experience,
+    now deliberately transitioning into DevOps. Open to paid or unpaid internships
+    to accelerate this journey and eager to learn and contribute from day one.
