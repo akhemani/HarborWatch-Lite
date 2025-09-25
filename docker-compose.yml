@@ -16,6 +16,11 @@ services:
       timeout: 5s
       retries: 5
     networks: [ hw-net ]
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5K"     # rotate when log reaches 10 MB
+        max-file: "5"     
 
   app:
     build:
@@ -30,6 +35,11 @@ services:
       - "8080:8080"
     restart: unless-stopped
     networks: [ hw-net ]
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5K"
+        max-file: "5"
 
 networks:
   hw-net:

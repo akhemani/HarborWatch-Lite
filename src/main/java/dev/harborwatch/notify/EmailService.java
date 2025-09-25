@@ -42,14 +42,14 @@ public class EmailService {
 	// Read region from common env vars; fall back to ap-south-1 (Mumbai)
 	private static Region resolveRegion() {
 		String r = getenvNonEmpty("AWS_REGION",
-				getenvNonEmpty("AMAZON_REGION", getenvNonEmpty("AWS_DEFAULT_REGION", "us-east-1")));
+				getenvNonEmpty("AMAZON_REGION", getenvNonEmpty("AWS_DEFAULT_REGION", "ap-south-1")));
 
 		try {
 			return Region.of(r);
 		} catch (Exception e) {
 			// As a last resort, default safely
 			log.warn("Invalid AWS region '{}'; defaulting to ap-south-1", r);
-			return Region.US_EAST_1;
+			return Region.AP_SOUTH_1;
 		}
 	}
 
