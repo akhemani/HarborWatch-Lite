@@ -49,7 +49,7 @@ public class EmailService {
 		} catch (Exception e) {
 			// As a last resort, default safely
 			log.warn("Invalid AWS region '{}'; defaulting to ap-south-1", r);
-			return Region.AP_SOUTH_1;
+			return Region.US_EAST_1;
 		}
 	}
 
